@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html> 
+<head>
+
+	<title>Crystal Collector Game</title>
+
+	<!-- Link Styling -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+	<!-- Link jQuery -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+	<!-- Game Title -->
+	<div class="page-header game-title">
+	  <h1>Crystals Collector!</h1>
+	</div>
+
+	<!-- Instructions Panel -->
+	<div class="jumbotron info-section">
+	  <h1>How to Play:</h1>
+		  <p>You will be given a random number at the start of the game.</p>
+		  <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
+		  <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+		  <p>The value of each crystal is hidden from you until you click on it.</p>
+		  <p>Each time the game starts, the game will change the value of each crystal.</p>
+	</div>
+
+	<!-- Random Number Panel -->
+	<div class="panel panel-default random-number-panel">
+	  <div class="panel-heading">
+	    <h3 class="panel-title">Match This Number:</h3>
+	  </div>
+	  <div class="panel-body">
+	  	<span id="number-to-guess"></span>
+	  </div>
+	</div>
+
+	<!-- Score Panel -->
+	<div class="panel panel-default score-panel">
+	  <div class="panel-body">
+	     <p>Wins: </p>
+	     <p>Losses: </p>
+	  </div>
+	</div>
+
+	<br>
+
+	<!-- Crystal Buttons/Images -->
+	<div id= "crystals">
+	<!-- <img src="assets/images/sparkling-diamond-bling-animated-gif-21.gif" class="img-responsive crystal-button crystal-1" alt="Responsive image">
+	<img src="assets/images/latest.gif" class="img-responsive crystal-button crystal-2" alt="Responsive image">
+	<img src="assets/images/POO8fEn.gif" class="img-responsive crystal-button crystal-3" alt="Responsive image">
+	<img src="assets/images/original.gif" class="img-responsive crystal-button crystal-4" alt="Responsive image"> -->
+	</div>
+
+	<!-- Player Total Score Panel -->
+	<div class="panel panel-default player-score-panel">
+	  <div class="panel-heading">
+	    <h3 class="panel-title">Your total score is:</h3>
+	  </div>
+	  <div class="panel-body">
+	    <span id="user-total-score"></span>
+	  </div>
+	</div>
+
+	<!-- Link my JavaScript -->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>

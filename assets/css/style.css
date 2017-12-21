@@ -1,0 +1,71 @@
+body {
+	background-image: url(https://i.pinimg.com/originals/e3/18/cc/e318cc2940b8c0b5da2aaa02defb3bbb.jpg); ;
+}
+.game-title {
+	font-size: 25px;
+	font-weight: 500;
+	background-color: orange;
+	color: white;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 20px;
+	border: none;
+}
+
+.info-section {
+	width: 70%;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	background-color: lightgrey;
+	opacity: 0.8;
+}
+
+.info-section h1 {
+	margin-left: 15px;
+	margin-top: -30px;
+	margin-bottom: 10px;
+	font-size: 50px;
+}
+
+.info-section p {
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 18px;
+}
+
+.random-number-panel {
+	width: 15%;
+	display: inline-block;
+	margin-left: 60px;
+	background-color: lightblue;
+}
+
+.score-panel {
+	width: 10%;
+	display: inline-block;
+	margin-left: 10px;
+	background-color: aqua;
+}
+
+.crystal-button {
+	display: inline-block;
+	width: 12%;
+}
+
+.crystal-2 {
+	width: 7%;
+	margin: 0px 10px;
+}
+
+.crystal-4 {
+	width: 18%;
+	margin-left: -20px;
+}
+
+.player-score-panel {
+	width: 15%;
+	margin-left: 60px;
+	margin-top: 15px;
+	background-color: skyblue;
+}
