@@ -65,6 +65,7 @@ body {
 
 .player-score-panel {
 	width: 15%;
+	display: inline-block;
 	margin-left: 60px;
 	margin-top: 15px;
 	background-color: skyblue;
